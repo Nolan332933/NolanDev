@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Flowbite CSS Import */
+@import "flowbite/dist/flowbite.min.css";
+
+/* Root CSS Variables */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #7f3af2; /* Main primary color */
+  --secondary-color: #ff5733; /* Random color, you can change it if needed */
+}
+
+/* Dark Mode CSS Variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* styles.css */
+@media (max-width: 640px) {
+  .theme-toggle {
+    position: static; /* or any other adjustment */
+    margin-bottom: 20px; /* or any other adjustment */
+  }
+}
+
+/* Dark Mode Utility Classes */
+.dark .bg-primary {
+  background-color: var(--primary-color);
+}
+
+.dark .text-primary {
+  color: var(--primary-color);
+}
+
+.dark .bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.dark .text-secondary {
+  color: var(--secondary-color);
+}
+
+/* Global Body Styles */
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: "Noto Serif Myanmar", serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+/* Dark Mode Global Body Styles */
+.dark body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+/* Reset Margins and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom Progress Bar Styling */
+.progress-bar {
+  background-color: var(--primary-color);
+}
+
+/* Additional Component Styling (Optional) */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
