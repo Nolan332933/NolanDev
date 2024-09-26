@@ -158,8 +158,8 @@ const About = () => {
           <div className="mx-10 flex justify-start gap-2">
             <div className="text-center mt-10">
               <a
-                href="/pdf/minthetpaing_cv.pdf"
-                download="MinThetPaingCV.pdf"
+                href="/pdf/kaungmyatkywal_cv.pdf"
+                download="KaungMyatKywalCV.pdf"
                 className="py-3 px-4 bg-violet-700 text-white transition-all ease-out delay-100  rounded-3xl shadow-md shadow-violet-500 hover:bg-red-400"
               >
                 Download CV <LiaDownloadSolid className="inline" />
@@ -167,9 +167,9 @@ const About = () => {
             </div>
             <div className="text-center mt-10">
               <a
-                href="/pdf/minthetpaing_cv.pdf"
+                href="/pdf/kaungmyatkywal_cv.pdf"
                 target="_blank"
-                title="MinThetPaingCV"
+                title="KaungMyatKywalCV"
                 className="py-3 px-4 bg-violet-700 text-white transition-all ease-out delay-100  rounded-3xl shadow-md shadow-violet-500 hover:bg-red-400"
               >
                 View CV <BsEye className="inline" />

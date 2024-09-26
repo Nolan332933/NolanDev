@@ -4,9 +4,9 @@ const Freelancer = () => {
   return (
     <div className="text-slate-300">
       <div className="flex flex-wrap">
-        <a href="https://www.freelancer.com/affiliates/email/76628469/">
+        <a href="https://www.freelancer.com/affiliates/email/78227726/">
           <img
-            src="https://cdn6.f-cdn.com/ppic/249545628/logo/76628469/profile_logo_76628469.jpg"
+            src="https://cdn6.f-cdn.com/ppic/249545628/logo/78227726/profile_logo_78227726.jpg"
             style={{
               float: "left",
               marginRight: 20,
@@ -20,7 +20,7 @@ const Freelancer = () => {
         <div style={{ minHeight: 40 }}>
           <a
             style={{ textDecoration: "underline", fontWeight: "bold" }}
-            href="https://www.freelancer.com/affiliates/email/76628469/"
+            href="https://www.freelancer.com/affiliates/email/78227726/"
           >
             Min Thet Paing
           </a>

@@ -42,7 +42,7 @@ const MobileNavbar = () => {
     <div className="sticky top-0 z-50">
       <div className="md:hidden p-3 bg-violet-700 shadow-md shadow-violet-500">
         <div className="flex justify-between items-center">
-          <p> Min Thet Paing</p>
+          <p> Kaung Myat Kywal</p>
           <div className="flex justify-between items-center">
             {socials.map((item) => (
               <Link key={item.id} href={item.link} className="mx-2">

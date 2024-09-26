@@ -9,9 +9,7 @@ export default function HomeLayout({ children }) {
   return (
     <div>
       <div className="flex min-h-screen relative">
-      <div className="fixed bottom-10 right-4 z-30">
-        <ThemeToggle />
-      </div>
+      
         <div className="md:w-2/6 lg:w-1/6 bg-violet-700 hidden md:block z-100">
           <Sidebar />
         </div>

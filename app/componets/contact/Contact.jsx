@@ -17,17 +17,17 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookF />,
-    link: "https://www.facebook.com/profile.php?id=100077666327550",
+    link: "https://www.facebook.com/profile.php?id=100077580763408",
   },
   {
     id: 2,
     icon: <FaInstagram />,
-    link: "https://www.instagram.com/newstein26?igsh=MWE5OWY4ZmR2dzNjMw%3D%3D&utm_source=qr",
+    link: "https://www.facebook.com/profile.php?id=100077580763408",
   },
   {
     id: 3,
     icon: <FaLinkedin />,
-    link: "www.linkedin.com/in/min-thet-paing-793738241",
+    link: "www.linkedin.com/in/kaung-myat-kywal-894a76275",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const data = [
 
 const Contact = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-slate-50">
+    <div className="min-h-screen flex justify-center items-center bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
       <div className="w-full pt-10 ">
         <Title title="Get In Touch" />
 
