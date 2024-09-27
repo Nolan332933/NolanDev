@@ -39,7 +39,7 @@ const About = () => {
   return (
     <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
       <Title title="Know Me More" />
-      <div className="fixed bottom-10 right-4 z-30">
+      <div className="fixed bottom-12 right-50 z-30">
         <ThemeToggle />
       </div>
       {/* Information  */}

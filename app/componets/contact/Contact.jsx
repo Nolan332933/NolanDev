@@ -62,7 +62,7 @@ const Contact = () => {
                     Address
                   </h1>
                   <p className="text-slate-500 text-justify">
-                    157 Petchkasem 42 yak 1 Bangjak Phasrijareon Bangkok 10160
+                  281/18 Moo 4 Suksawat 40 Road, Khwang Bang Pakok, Khet Rat Burana, Bangkok 10140
                   </p>
                 </div>
                 {/* contact info  */}
@@ -76,7 +76,7 @@ const Contact = () => {
                       href="phoneto:+6588571785"
                       className="text-slate-500 text-sm"
                     >
-                      +6588571785
+                      +6566498913
                     </a>
                   </div>
                   <div className="mt-3">
@@ -88,7 +88,7 @@ const Contact = () => {
                       href="mailto:minthetpaing376@gmail.com"
                       className="text-slate-500 text-sm"
                     >
-                      minthetpaing376@gmail.com
+                      kmkywal.nolan@gmail.com
                     </a>
                   </div>
                 </div>
