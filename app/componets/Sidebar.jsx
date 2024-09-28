@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 const Sidebar = () => {
   const pathname = usePathname();
   return (
-    <div className="fixed top-0 start-0 mt-0 min-h-screen md:w-2/6 lg:w-1/6 bg-gray-700 text-white">
+    <div className="fixed top-0 start-0 mt-0 min-h-screen md:w-2/6 lg:w-1/6 bg-gray-600 text-white">
       <div className="flex flex-col justify-center items-center">
         <div>
           <Image

@@ -32,12 +32,12 @@ const data = [
   {
     id: 4,
     icon: <FaTelegram />,
-    link: "https://t.me/alpha27century",
+    link: "https://t.me/nolanErl",
   },
   {
     id: 5,
     icon: <FaWhatsapp />,
-    link: "https://wa.me/+6588571785 ",
+    link: "https://wa.me/+65966498913",
   },
 ];
 
@@ -62,7 +62,7 @@ const Contact = () => {
                     Address
                   </h1>
                   <p className="text-slate-500 text-justify">
-                  281/18 Moo 4 Suksawat 40 Road, Khwang Bang Pakok, Khet Rat Burana, Bangkok 10140
+                  281/18 Moo 4 Suksawat 40 Rd. Khwang Bang Pakok, Khet Rat Burana Bangkok 10140, Thailand​
                   </p>
                 </div>
                 {/* contact info  */}
@@ -76,7 +76,7 @@ const Contact = () => {
                       href="phoneto:+6588571785"
                       className="text-slate-500 text-sm"
                     >
-                      +6566498913
+                      +65966498913
                     </a>
                   </div>
                   <div className="mt-3">
@@ -85,7 +85,7 @@ const Contact = () => {
                       className="text-violet-700 inline me-3"
                     />
                     <a
-                      href="mailto:minthetpaing376@gmail.com"
+                      href="mailto:kmkywal.nolan@gmail.com"
                       className="text-slate-500 text-sm"
                     >
                       kmkywal.nolan@gmail.com

@@ -27,7 +27,7 @@ const data = [
   {
     id : 5,
     icon : <FaWhatsapp />,
-    link : "https://wa.me/+6566498913",
+    link : "https://wa.me/+65966498913",
   },
 ]
 

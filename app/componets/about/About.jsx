@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 2,
-    number: 5,
+    number: 10,
     name: "Happy Clients",
   },
   {
@@ -37,7 +37,7 @@ const data = [
 const About = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
+    <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
       <Title title="Know Me More" />
       <div className="fixed bottom-12 right-50 z-30">
         <ThemeToggle />
@@ -47,7 +47,7 @@ const About = () => {
         {/* About me info */}
         <div className="lg:w-2/3">
           <div className="mx-10 md:mx-20">
-            <h1 className="text-2xl text-slate-800 font-bold">
+            <h1 className="text-2xl text-slate-800 dark:text-slate-300 font-bold">
               I'm
               <span className="text-2xl text-violet-700 ms-3">
                 Kaung Myat Kywal
@@ -116,14 +116,14 @@ const About = () => {
             <div>
               <div className="relative">
                 <div className="mb-2 py-3">
-                  <span className="font-bold text-slate-800"> Name: </span>
-                  <span className="ms-3 text-slate-500"> Kaung Myat Kywal </span>
+                  <span className="font-bold text-slate-800 dark:text-slate-200"> Name: </span>
+                  <span className="ms-3 text-slate-500 "> Kaung Myat Kywal | Nolan</span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>
               </div>
               <div className="relative">
                 <div className="mb-2 py-3">
-                  <span className="font-bold text-slate-800">Email:</span>
+                  <span className="font-bold text-slate-800 dark:text-slate-200">Email:</span>
                   <a
                     href="mailto:kmkywal.nolan@gmail.com"
                     className="ms-3 text-violet-700"
@@ -135,19 +135,19 @@ const About = () => {
               </div>
               <div className="relative">
                 <div className="mb-2 py-3">
-                  <span className="font-bold text-slate-800"> Age: </span>
+                  <span className="font-bold text-slate-800 dark:text-slate-200"> Age: </span>
                   <span className="ms-3 text-slate-500"> 23 </span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>
               </div>
               <div className="relative">
                 <div className="mb-2 py-3">
-                  <span className="font-bold text-slate-800"> From: </span>
+                  <span className="font-bold text-slate-800 dark:text-slate-200"> From: </span>
                   <span className="ms-3 text-slate-500">
-                    157 Petchkasem 42 yak 1 Bangjak
+                  281/18 Moo 4 Suksawat 40 Rd. Khwang Bang Pakok
                   </span>
                   <span className="ms-3 text-slate-500 block">
-                    Phasrijareon Bangkok 10160
+                  Khet Rat Burana Bangkok 10140,
                   </span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>
@@ -187,7 +187,7 @@ const About = () => {
         {data.map((item) => (
           <div data-aos="fade-up" className="w-1/2 lg:w-1/4" key={item.id}>
             <div className="border-r-2 border-r-slate-300 px-4  mx-5 mt-3 md:mt-0">
-              <div className="flex text-slate-800  font-bold items-center justify-center mb-5">
+              <div className="flex text-slate-800 dark:text-slate-400 font-bold items-center justify-center mb-5">
                 <h1 className="text-6xl">
                   <ScrollTrigger
                     onEnter={() => setCounterOn(true)}

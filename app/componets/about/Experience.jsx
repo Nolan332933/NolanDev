@@ -38,8 +38,8 @@ const StepBox = ({item}) => {
     >
       <div className="me-3">
         {/* exp step  */}
-        <div className="relative w-4 h-4 rounded-full bg-indigo-700">
-          <div className="absolute h-[210px] md:h-[165px] bg-indigo-700 w-[2px] top-2 left-2">
+        <div className="relative w-4 h-4 rounded-full dark:text-slate-300 bg-indigo-700">
+          <div className="absolute h-[210px] md:h-[165px] dark:text-slate-300 bg-indigo-700 w-[2px] top-2 left-2">
           </div>
         </div>
       </div>

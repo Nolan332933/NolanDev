@@ -56,7 +56,7 @@ const data = [
 
 const Service = () => {
   return (
-    <div className="min-h-screen bg-slate-100 text-black dark:bg-gray-900 dark:text-white flex items-center justify-center">
+    <div className="min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white flex items-center justify-center">
       <div className="mt-10 md:mt-0">
         {/* title  */}
         <Title title="My Service" />

@@ -49,6 +49,13 @@
         "color" : "red"
     },
     {
+        "id" : 6,
+        "name" : "Python",
+        "logo" : "/image/svg/Python.svg",
+        "percentage" : "80",
+        "color" : "green"
+    },
+    {
         "id" : 13,
         "name" : "CodeIgniter",
         "logo" : "/image/svg/codeigniter.svg",
@@ -56,7 +63,7 @@
         "color" : "red"
     },
     {
-        "id" : 6,
+        "id" : 14,
         "name" : "React",
         "logo" : "/image/svg/react.svg",
         "percentage" : "70",

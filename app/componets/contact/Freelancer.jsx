@@ -22,7 +22,7 @@ const Freelancer = () => {
             style={{ textDecoration: "underline", fontWeight: "bold" }}
             href="https://www.freelancer.com/affiliates/email/78227726/"
           >
-            Min Thet Paing
+            KaungMyatKywal
           </a>
           <p
             style={{
@@ -35,14 +35,14 @@ const Freelancer = () => {
             Laravel Expect
           </p>
           <p style={{ margin: 0 }}>
-            <strong>P:</strong> 948199869
+            <strong>P:</strong> +66966498913
           </p>
           <p style={{ margin: 0 }}>
-            <strong>E:</strong> minthetpaing376@gmail.com
+            <strong>E:</strong> kmkywal.nolan@gmail.com
           </p>
           <p style={{ margin: 0 }}>
             <strong>A:</strong>
-            157 Petchkasem 42 yak 1 Bangjak Phasrijareon Bangkok 10160
+            281/18 Moo 4 Suksawat 40 Rd. Khwang Bang Pakok, Khet Rat Burana Bangkok 10140, Thailand​
           </p>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Freelancer = () => {
         style={{ clear: "left", float: "left", margin: "10px 0" }}
       />
       <a
-        href="https://www.freelancer.com/affiliates/email/76628469/"
+        href="https://www.freelancer.com/affiliates/email/78227726/"
         style={{
           display: "block",
           textDecoration: "underline",

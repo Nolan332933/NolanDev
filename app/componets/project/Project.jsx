@@ -47,7 +47,7 @@ const Project = () => {
   }, [paginationState.currentPage])
 
   return (
-    <div className="mt-10 min-h-screen bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
+    <div className="mt-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
         {/* title  */}
         <Title title="My Work"/>
         <div className="flex flex-col">

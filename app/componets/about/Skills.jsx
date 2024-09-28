@@ -23,7 +23,7 @@ const Skills = () => {
             />
           </div>
           <div className="w-10/12 md:w-11/12">
-            <div className="text-base font-medium text-slate-700">{item.name}</div>
+            <div className="text-base font-medium text-slate-700 dark:text-slate-200">{item.name}</div>
             <Progress 
               progress={item.percentage}
               size="md" 
