@@ -5,6 +5,8 @@ import data from "../../../public/data/project";
 import ProjectItem from "./ProjectItem";
 import { usePathname } from "next/navigation";
 import Button from "../../../app/utlis/Button";
+import ThemeToggle from "../../../components/ThemeToggle";
+
 
 const Project = () => {
   const perPage = 9;
@@ -50,6 +52,9 @@ const Project = () => {
     <div className="mt-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
         {/* title  */}
         <Title title="My Work"/>
+          <div className="fixed bottom-12 right-50 z-30">
+            <ThemeToggle />
+          </div>
         <div className="flex flex-col">
           {/* project items  */}
           <div className="flex flex-wrap justify-between mt-10 mx-2 md:mx-20">

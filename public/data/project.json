@@ -1,6 +1,35 @@
 [
 	{
 		"id": 1,
+		"title": "AiImageGenerator",
+		"short_desc": "Digigtal Designing Platform Tool. React, TypeScript, Tailwind",
+		"image": "/image/projects/thumbnails/mmqr.jpg",
+		"project_img": {
+			"main": "/image/projects/ai-image-generator/main.png",
+			"imageone": "/image/projects/ai-image-generator/imageone.png",
+			"imagetwo": "/image/projects/ai-image-generator/imagetwo.png"
+		},
+		"project_desc": "",
+		"project_tech": [
+			"React",
+			"Next JS",
+			"TypeScript",
+			"Mysql"
+		],
+		"project_challenge": {
+			"intro": "This project posed several challenges, mainly centered around designing and adapting the code for different template systems. ",
+			"short_desc": "Originally, we only planned for three templates, but the client later requested more. To accommodate this, we developed a system that could easily add new templates without using unfamiliar technologies.Another hurdle was integrating real payment transactions via KPay, ensuring smooth transactions for both mobile app and web-based QR code systems. Additionally, we had to handle manual payment transactions.Language localization, specifically English and Myanmar, was also implemented, allowing for dynamic word changes as needed.Overall, the project took four months to complete, presenting several challenges along the way. However, it stands as a significant achievement in my career."
+		},
+		"client": "Personal Project",
+		"content": "Ai ",
+		"date": "10-7-2024",
+		"category": "Graphic Creation Platform",
+		"location": "Personal Project",
+		"website_url": "https://ai-image-generat0r.vercel.app",
+		"gitlink": "https://github.com/Nolan332933/ai-image-generat0r"
+	},
+	{
+		"id": 2,
 		"title": "MMQrGenerator",
 		"short_desc": "Qr generation app with customized design and template. Jquery, Laravel, Bootstrap",
 		"image": "/image/projects/thumbnails/mmqr.jpg",
@@ -26,10 +55,10 @@
 		"category": "Qrcode",
 		"location": "Myanmar ICT Solutions",
 		"website_url": "https://mmqrcodegenerator.com",
-		"gitlink": "https://github.com/Newstein123/mmqrgenerator"
+		"gitlink": "Not Provided"
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"title": "MM ChatAi",
 		"short_desc": "Chat GPT Myanmar Version with google translate and Chat GPT Api. Jquery, Laravel, Bootstrap",
 		"image": "/image/projects/thumbnails/mmchatai.jpg",
@@ -57,10 +86,10 @@
 		"category": "Artificial Intelligence",
 		"location": "Myanmar ICT Solutions",
 		"website_url": "https://chat.myanmarictsolutions.pro",
-		"gitlink": "https://github.com/Newstein123/mmchatai"
+		"gitlink": "Not Provided"
 	},
 	{
-		"id": 3,
+		"id": 4,
 		"title": "Trading Platform",
 		"short_desc": "Trading agent platform with binance websocket api. React, Laravel, Bootstrap",
 		"image": "/image/projects/thumbnails/trading.jpg",
@@ -89,7 +118,7 @@
 		"category": "Finance",
 		"location": "Myanmar ICT Solutions",
 		"website_url": "https://trade-mm.com",
-		"gitlink": "https://github.com/Newstein123/coinbankkr"
+		"gitlink": "Not Provided"
 	},
 	{
 		"id": 5,
@@ -118,7 +147,7 @@
 		"category": "Business",
 		"location": "Myanmar ICT Solutions",
 		"website_url": "https://fsd.gov.mm/product",
-		"gitlink": "https://github.com/lara-camp/business-finding"
+		"gitlink": "Not Provided"
 	},
 	{
 		"id": 6,
@@ -146,7 +175,7 @@
 		"category": "Qrcode",
 		"location": "Myanmar ICT Solutions",
 		"website_url": "https://fsd.gov.mm.com/products",
-		"gitlink": "https://github.com/Newstein123/fireqr"
+		"gitlink": "Not Provided"
 	},
 	{
 		"id": 13,
@@ -210,7 +239,7 @@
 		"category": "Website Generator",
 		"location": "Myanmar ICT Solutions",
 		"website_url": "admin.tennthone.com",
-		"gitlink": ""
+		"gitlink": "Not Provided"
 	},
 	{
 		"id": 8,
@@ -240,7 +269,7 @@
 		"category": "Media",
 		"location": "Own Project",
 		"website_url": "https://promptopia-mu-olive.vercel.app",
-		"gitlink": "https://github.com/Newstein123/promptopia"
+		"gitlink": "Not Provided"
 	},
 	{
 		"id": 9,

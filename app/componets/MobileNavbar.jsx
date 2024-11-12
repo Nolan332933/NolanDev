@@ -16,22 +16,22 @@ const socials = [
   {
     id: 1,
     icon: <FaFacebookF />,
-    link: "https://www.facebook.com/profile.php?id=100077666327550",
+    link: "https://www.facebook.com/profile.php?id=100077580763408",
   },
   {
     id: 2,
     icon: <FaInstagram />,
-    link: "https://www.facebook.com/profile.php?id=100077666327550",
+    link: "https://www.facebook.com/profile.php?id=100077580763408",
   },
   {
     id: 3,
     icon: <FaLinkedin />,
-    link: "https://www.facebook.com/profile.php?id=100077666327550",
+    link: "https://www.linkedin.com/in/kaung-myat-kywal-894a76275",
   },
   {
     id: 4,
     icon: <FaTelegram />,
-    link: "https://www.facebook.com/profile.php?id=100077666327550",
+    link: "https://t.me/nolanErl",
   },
 ];
 

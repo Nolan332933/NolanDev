@@ -1,6 +1,8 @@
+"use client"
 import React from "react";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { useState, useEffect } from 'react';
 import Link from "next/link";
 import {
   FaFacebookF,
@@ -12,6 +14,8 @@ import Title from "../../../app/utlis/Title";
 import ContactForm from "./ContactForm";
 import { FaWhatsapp } from "react-icons/fa";
 import Freelancer from "./Freelancer";
+import ThemeToggle from "../../../components/ThemeToggle";
+
 
 const data = [
   {
@@ -44,8 +48,12 @@ const data = [
 const Contact = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
+     
       <div className="w-full pt-10 ">
         <Title title="Get In Touch" />
+         <div className="fixed bottom-12 right-50 z-30">
+           <ThemeToggle />
+          </div>
 
         <div className="mt-20">
           <div className="flex flex-col-reverse md:flex-row flex-wrap justify-between">

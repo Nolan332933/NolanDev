@@ -17,7 +17,7 @@ const data = [
   {
     id : 3,
     icon : <FaLinkedin />,
-    link : "www.linkedin.com/in/kaung-myat-kywal-894a76275",
+    link : "https://www.linkedin.com/in/kaung-myat-kywal-894a76275",
   },
   {
     id : 4,

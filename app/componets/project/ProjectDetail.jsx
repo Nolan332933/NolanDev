@@ -4,6 +4,7 @@ import Image from "next/image";
 import data from "../../../public/data/project";
 import ProjectDetailImg from "../../../public/image/projects/project_details.png";
 import ProjectCardInfo from "./ProjectCardInfo";
+import ThemeToggle from "../../../components/ThemeToggle";
 
 const ProjectDetail = ({ id }) => {
   const [item, setItem] = useState({});
@@ -14,8 +15,11 @@ const ProjectDetail = ({ id }) => {
   }, [id]);
 
   return (
-    <div>
+    <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
       {/* image  */}
+      <div className="fixed bottom-12 right-50 z-30">
+        <ThemeToggle />
+      </div>
       <div className="mx-10 pt-5">
         <Image
           src={ProjectDetailImg}
@@ -37,14 +41,14 @@ const ProjectDetail = ({ id }) => {
               height={488}
             />
             {/* Heading One  */}
-            <h1 className="text-2xl font-bold text-slate-700 mt-10">
+            <h1 className="text-2xl font-bold text-slate-700 dark:text-white mt-10">
               {item.title}
             </h1>
             {/* paragraph  */}
-            <p className="text-slate-500 text-justify"> {item.project_desc} </p>
+            <p className="text-slate-500 dark:text-white text-justify"> {item.project_desc} </p>
             {/* technologies  */}
             <div className="my-5">
-              <h2 className="mb-2 text-lg font-semibold text-gray-700">
+              <h2 className="mb-2 text-lg font-semibold text-gray-700 dark:text-white">
                 Project Technologies:
               </h2>
               <div className="flex flex-wrap">
@@ -65,11 +69,11 @@ const ProjectDetail = ({ id }) => {
               </div>
             </div>
             {/* Heading Two  */}
-            <h2 className="text-2xl font-bold text-slate-700 mt-10">
+            <h2 className="text-2xl font-bold text-slate-700 mt-10 dark:text-white">
               The Challange of Project
             </h2>
             {/* paragraph two  */}
-            <p className="text-slate-500 text-justify"> {item.project_challenge?.intro} </p>
+            <p className="text-slate-500 dark:text-white text-justify"> {item.project_challenge?.intro} </p>
             {/* Two Image  */}
             <div className="flex flex-wrap mt-10">
                 {/* Image one  */}
@@ -103,7 +107,7 @@ const ProjectDetail = ({ id }) => {
             </div>
             {/* Paragraph three */}
             <p 
-              className="text-slate-500 text-justify my-10" 
+              className="text-slate-500 dark:text-white text-justify my-10" 
               data-aos="fade-up"
             > {item.project_challenge?.short_desc} </p>
           </div>
@@ -111,7 +115,7 @@ const ProjectDetail = ({ id }) => {
           <div className="w-full lg:w-1/3">
             <div className="ms-5" data-aos="slide-left">
               <ProjectCardInfo item={item} />
-              <ContactNow />
+            
             </div>
           </div>
         </div>
@@ -144,6 +148,8 @@ function getSvg(name) {
       return '/image/svg/jquery.svg'
     case 'Inertia Js':
       return '/image/svg/inertiajs.png'
+    case 'Next JS':
+        return '/image/svg/nextjs.svg'  
     case 'AWS':
       return '/image/svg/aws.svg'
     case 'Docker':
@@ -152,6 +158,8 @@ function getSvg(name) {
       return '/image/svg/php.svg'
     case 'Code Igniter':
       return '/image/svg/codeigniter.svg'
+    case 'TypeScript':
+      return '/image/svg/typescript.svg'  
     default:
       return '/image/svg/cpu.svg'
   }
