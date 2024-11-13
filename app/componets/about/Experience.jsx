@@ -55,10 +55,10 @@ const StepBox = ({item}) => {
 
 const ExperienceBox = ({ year, title, description }) => {
   return (
-    <div className="bg-slate-100 p-3 rounded-md shadow-slate-600 shadow-sm">
+    <div className="bg-slate-100 p-3 rounded-md shadow-slate-600 shadow-sm dark:bg-gray-700 dark:text-white">
       <div className="flex flex-col">
-        <span className="text-indigo-700"> {year} </span> {/* year  */}
-        <h3 className="text-xl font-bold text-slate-700 mt-2">
+        <span className="text-indigo-700 dark:text-white"> {year} </span> {/* year  */}
+        <h3 className="text-xl font-bold text-slate-700  dark:text-white mt-2">
           
           {title}
         </h3>

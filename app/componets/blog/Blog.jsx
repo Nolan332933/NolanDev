@@ -12,7 +12,7 @@ const Blog = ({ item }) => {
   const postBody = plainText.slice(0, 200);
 
   return (
-    <div className="mx-0 md:mx-2">
+    <div className="mx-0 md:mx-2 dark:bg-gray-800 dark:text-white">
       {/* thumbnail image  */}
       <Link href={`/blog/${params.lang}/${item?._id}`}>
         {item?.post_images && item?.post_images.length > 0 ? (

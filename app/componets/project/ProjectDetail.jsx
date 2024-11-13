@@ -4,7 +4,7 @@ import Image from "next/image";
 import data from "../../../public/data/project";
 import ProjectDetailImg from "../../../public/image/projects/project_details.png";
 import ProjectCardInfo from "./ProjectCardInfo";
-import ThemeToggle from "../../../components/ThemeToggle";
+
 
 const ProjectDetail = ({ id }) => {
   const [item, setItem] = useState({});
@@ -17,9 +17,7 @@ const ProjectDetail = ({ id }) => {
   return (
     <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
       {/* image  */}
-      <div className="fixed bottom-12 right-50 z-30">
-        <ThemeToggle />
-      </div>
+      
       <div className="mx-10 pt-5">
         <Image
           src={ProjectDetailImg}

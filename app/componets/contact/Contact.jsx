@@ -47,13 +47,13 @@ const data = [
 
 const Contact = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
+    <div className="min-h-screen flex justify-center items-center bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
      
       <div className="w-full pt-10 ">
         <Title title="Get In Touch" />
-         <div className="fixed bottom-12 right-50 z-30">
+         {/* <div className="fixed bottom-12 right-50 z-30">
            <ThemeToggle />
-          </div>
+          </div> */}
 
         <div className="mt-20">
           <div className="flex flex-col-reverse md:flex-row flex-wrap justify-between">

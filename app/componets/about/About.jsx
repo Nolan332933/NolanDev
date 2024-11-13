@@ -9,7 +9,6 @@ import { useState } from "react";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import { BsEye } from "react-icons/bs";
-import ThemeToggle from "../../../components/ThemeToggle";
 
 const data = [
   {
@@ -39,9 +38,9 @@ const About = () => {
   return (
     <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
       <Title title="Know Me More" />
-      <div className="fixed bottom-12 right-50 z-30">
+      {/* <div className="fixed bottom-12 right-50 z-30">
         <ThemeToggle />
-      </div>
+      </div> */}
       {/* Information  */}
       <div className="flex flex-wrap mt-20">
         {/* About me info */}
@@ -52,7 +51,7 @@ const About = () => {
               <span className="text-2xl text-violet-700 ms-3">
                 Kaung Myat Kywal
               </span>
-              , a Full Stack Web Developer
+              ,  Full Stack Web Developer
             </h1>
             <br />
             <p
@@ -144,10 +143,10 @@ const About = () => {
                 <div className="mb-2 py-3">
                   <span className="font-bold text-slate-800 dark:text-slate-200"> From: </span>
                   <span className="ms-3 text-slate-500">
-                  281/18 Moo 4 Suksawat 40 Rd. Khwang Bang Pakok
+                  281/18 Moo 4 Suksawat 40 Rd.<br /> Khwang Bang Pakok
                   </span>
-                  <span className="ms-3 text-slate-500 block">
-                  Khet Rat Burana Bangkok 10140,
+                  <span className="text-slate-500 block">
+                  Khet Rat Burana Bangkok 10140
                   </span>
                 </div>
                 <span className="absolute bottom-0 left-0 bg-slate-500 w-3/4 h-[2px]"></span>

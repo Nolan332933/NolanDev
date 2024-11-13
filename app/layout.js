@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import ThemeToggle from "../components/ThemeToggle";
+
 
 const inter = Source_Sans_3({ subsets: ["latin"], weight: "400" });
 
@@ -47,8 +49,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
+        <div className="fixed bottom-20 left-4 md:left-[280px] lg:left-[320px] xl:left-[380px] z-30">
+          <ThemeToggle />
+        </div>
         {process.env.APP_ENV === "production" && (
           <>
+          
             <Analytics />
             <SpeedInsights />
           </>

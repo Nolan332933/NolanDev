@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { BsDatabaseFillGear } from "react-icons/bs";
 import {GiGearHammer} from 'react-icons/gi'
@@ -7,6 +8,7 @@ import {MdOutlineComputer} from 'react-icons/md'
 import { CiServer } from "react-icons/ci";
 import Title from "@/app/utlis/Title";
 import ServiceItem from "./ServiceItem";
+
 
 const data = [
   {
@@ -57,11 +59,14 @@ const data = [
 const Service = () => {
   return (
     <div className="min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white flex items-center justify-center">
+      {/* <div className="fixed bottom-12 right-50 z-30">
+        <ThemeToggle />
+      </div> */}
       <div className="mt-10 md:mt-0">
         {/* title  */}
         <Title title="My Service" />
         {/* My service  */}
-        <div className="flex flex-wrap mt-20 mb-5 mx-5 md:mx-10">
+        <div className="flex flex-wrap mt-20 mb-5 mx-5 md:mx-10 dark:text-white">
           {data.map((item) => (
             <ServiceItem item={item} key={item.id}/>
           ))}

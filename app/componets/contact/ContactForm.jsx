@@ -42,7 +42,7 @@ const ContactForm = () => {
           data-aos-duration="1500"
           className="mx-10 md:mx-20"
         >
-          <h1 className="text-2xl font-bold text-slate-800 mb-5">
+          <h1 className="text-2xl font-bold text-slate-800 dark:text-white mb-5">
             Sent Me A Note
           </h1>
           <div className="flex flex-wrap">
@@ -87,7 +87,7 @@ const ContactForm = () => {
             <button
               type="submit"
               className={`rounded-3xl transition-all ease-out delay-100 ${
-                loading ? "bg-red-400" : "bg-violet-700"
+                loading ? "bg-red-400" : "bg-violet-600"
               }   text-white px-4 py-3 shadow-md shadow-violet-500 hover:bg-red-400`}
             >
               {!loading ? "Message Me" : "Messaging...."}

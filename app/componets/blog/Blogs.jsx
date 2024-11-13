@@ -16,7 +16,7 @@ const Blogs = ({ lang }) => {
   }, [params.lang]);
 
   return (
-    <div className="bg-slate-200">
+    <div className="bg-slate-200 dark:bg-gray-800 dark:text-white">
       <div className="py-10">
         <h1 className="text-2xl font-bold text-slate-800">
           {lang.blog.allPosts}
