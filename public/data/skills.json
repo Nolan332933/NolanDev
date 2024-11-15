@@ -66,7 +66,7 @@
         "id" : 7,
         "name" : "Node",
         "logo" : "/image/svg/nodejs.svg",
-        "percentage" : "80",
+        "percentage" : "90",
         "color" : "green"
     },
     {
@@ -80,14 +80,14 @@
         "id" : 7,
         "name" : "C#",
         "logo" : "/image/svg/c-sharp.png",
-        "percentage" : "80",
+        "percentage" : "90",
         "color" : "green"
     },
     {
         "id" : 6,
         "name" : "Python",
         "logo" : "/image/svg/Python.svg",
-        "percentage" : "80",
+        "percentage" : "90",
         "color" : "green"
     },
     {

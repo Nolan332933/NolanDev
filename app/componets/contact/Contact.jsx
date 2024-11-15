@@ -63,7 +63,7 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-delay="20"
                 data-aos-duration="1500"
-                className="mx-10 md:me-0  mt-5 md:mt-0 px-3 bg-white rounded-lg pt-3 shadow-md shadow-violet-400"
+                className="mx-10 md:me-0  mt-5 md:mt-0 px-3 bg-white rounded-lg pt-3 shadow-md shadow-red-300"
               >
                 <div>
                   <h1 className="text-2xl font-bold text-slate-600 mb-5">
@@ -106,7 +106,7 @@ const Contact = () => {
                   <h1 className="font-bold text-slate-600 text-2xl">
                     Follow Me
                   </h1>
-                  <div className="flex justify-center my-3 bg-violet-700 px-5 py-3 rounded-tl-lg rounded-tr-lg">
+                  <div className="flex justify-center my-3 bg-red-400 px-5 py-3 rounded-tl-lg rounded-tr-lg">
                     {data.map((item) => (
                       <Link
                         href={item.link}
@@ -129,7 +129,7 @@ const Contact = () => {
         </div>
 
         {/* freelancer link  */}
-        <div className="mx-10 my-20 border border-violet-500 rounded-md p-3 flex bg-violet-700 shadow-md shadow-violet-400">
+        <div className="mx-10 my-20 border border-violet-500 rounded-md p-3 flex bg-violet-600 shadow-md shadow-violet-400">
           <Freelancer />
         </div>
       </div>

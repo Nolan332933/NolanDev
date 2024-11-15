@@ -87,8 +87,8 @@ const ContactForm = () => {
             <button
               type="submit"
               className={`rounded-3xl transition-all ease-out delay-100 ${
-                loading ? "bg-red-400" : "bg-violet-600"
-              }   text-white px-4 py-3 shadow-md shadow-violet-500 hover:bg-red-400`}
+                loading ? "bg-violet-400" : "bg-red-400"
+              }   text-white px-4 py-3 shadow-md shadow-red-300 hover:bg-red-400`}
             >
               {!loading ? "Message Me" : "Messaging...."}
             </button>

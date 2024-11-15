@@ -32,7 +32,7 @@ const Freelancer = () => {
               overflow: "hidden",
             }}
           >
-            Laravel Expect
+            React, Node
           </p>
           <p style={{ margin: 0 }}>
             <strong>P:</strong> +66966498913
@@ -63,11 +63,7 @@ const Freelancer = () => {
       >
         Hire me on Freelancer.com
       </a>
-      <img
-        src="//t.flnwdgt.com/1px.gif?username=minthetpaing376&en=externalHireme&method=img&label=hiremeEmailImpression&ip=184.22.100.222&type=emailSignature"
-        alt=""
-        style={{ float: "left" }}
-      />
+    
     </div>
   );
 };

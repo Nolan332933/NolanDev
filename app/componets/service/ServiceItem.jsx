@@ -22,7 +22,7 @@ export const Service = ({item}) => {
         <div className="flex justify-center">
           <div className="p-3">
             <div className="text-center text-violet-700 dark:bg-gray-700 group-hover:text-slate-100 inline transition-transform duration-300 ease-in-out transform scale-100 hover:scale-115">{item.icon}</div>
-            <h1 className="text-slate-700 text-2xl font-bold mt-5 group-hover:text-white transition-transform duration-300 ease-in-out transform scale-100 hover:scale-115">{item.name}</h1>
+            <h1 className="text-slate-700 dark:text-slate-200 text-2xl font-bold mt-5 group-hover:text-white transition-transform duration-300 ease-in-out transform scale-100 hover:scale-115">{item.name}</h1>
             <p className="text-slate-500 leading-normal mt-5 text-justify group-hover:text-white transition-transform duration-300 ease-in-out transform scale-100 hover:scale-115 text-sm">{item.desc}</p>
           </div>
         </div>
