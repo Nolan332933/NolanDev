@@ -1,0 +1,135 @@
+[
+    {
+        "id" : 1,
+        "name" : "HTML",
+        "logo" : "/image/svg/html.svg",
+        "percentage" : "90",
+        "color" : "yellow"
+    },
+    {
+        "id" : 2,
+        "name" : "CSS",
+        "logo" : "/image/svg/css.svg",
+        "percentage" : "80",
+        "color" : "blue"
+    },
+    {
+        "id" : 10,
+        "name" : "Bootstrap",
+        "logo" : "/image/svg/bootstrap.svg",
+        "percentage" : "100",
+        "color" : "purple"
+    },
+    {
+        "id" : 3,
+        "name" : "Javascript",
+        "logo" : "/image/svg/js.svg",
+        "percentage" : "95",
+        "color" : "yellow"
+    },
+    {
+        "id" : 11,
+        "name" : "Tailwind CSS",
+        "logo" : "/image/svg/tailwind.svg",
+        "percentage" : "100",
+        "color" : "cyan"
+    },
+    {
+        "id" : 14,
+        "name" : "React",
+        "logo" : "/image/svg/react.svg",
+        "percentage" : "90",
+        "color" : "cyan"
+    },
+    {
+        "id" : 12,
+        "name" : "TypeScript",
+        "logo" : "/image/svg/typescript.png",
+        "percentage" : "90",
+        "color" : "dark"
+    },
+    {
+        "id" : 14,
+        "name" : "React Native",
+        "logo" : "/image/svg/react.svg",
+        "percentage" : "90",
+        "color" : "cyan"
+    },
+    {
+        "id" : 12,
+        "name" : "Next",
+        "logo" : "/image/svg/nextjs.svg",
+        "percentage" : "90",
+        "color" : "dark"
+    },
+    {
+        "id" : 7,
+        "name" : "Node",
+        "logo" : "/image/svg/nodejs.svg",
+        "percentage" : "90",
+        "color" : "green"
+    },
+    {
+        "id" : 7,
+        "name" : "Express",
+        "logo" : "/image/svg/express-js.svg",
+        "percentage" : "80",
+        "color" : "green"
+    },
+    {
+        "id" : 7,
+        "name" : "C#",
+        "logo" : "/image/svg/c-sharp.png",
+        "percentage" : "90",
+        "color" : "green"
+    },
+    {
+        "id" : 6,
+        "name" : "Python",
+        "logo" : "/image/svg/Python.svg",
+        "percentage" : "90",
+        "color" : "green"
+    },
+    {
+        "id" : 4,
+        "name" : "PHP",
+        "logo" : "/image/svg/php.svg",
+        "percentage" : "75",
+        "color" : "indigo"
+    },
+    {
+        "id" : 5,
+        "name" : "Laravel",
+        "logo" : "/image/svg/laravel.svg",
+        "percentage" : "75",
+        "color" : "red"
+    },
+    {
+        "id" : 8,
+        "name" : "MySql",
+        "logo" : "/image/svg/mysql.svg",
+        "percentage" : "85",
+        "color" : "yellow"
+    },
+    {
+        "id" : 9,
+        "name" : "MongoDB",
+        "logo" : "/image/svg/mongo.svg",
+        "percentage" : "70",
+        "color" : "green"
+    },
+    {
+        "id" : 13,
+        "name" : "AWS Cloud Services",
+        "logo" : "/image/svg/aws.svg",
+        "percentage" : "80",
+        "color" : "red"
+    },
+    {
+        "id" : 13,
+        "name" : "CodeIgniter",
+        "logo" : "/image/svg/codeigniter.svg",
+        "percentage" : "80",
+        "color" : "red"
+    }         
+]

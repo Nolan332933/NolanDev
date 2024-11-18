@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Flowbite CSS Import */
+@import "flowbite/dist/flowbite.min.css";
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #7f3af2; 
+  --secondary-color: #ff5733; 
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 80px;
+  left: 16px;
+  z-index: 30;
+}
+
+@media (min-width: 768px) {
+  .theme-toggle {
+    left: 260px; 
+  }
+}
+
+@media (min-width: 820px) {
+  .theme-toggle {
+    left: 280px;
+  }
+}
+
+@media (min-width: 853px) {
+  .theme-toggle {
+    left: 290px;
+  }
+}
+
+@media (min-width: 896px) {
+  .theme-toggle {
+    left: 300px;
+  }
+}
+@media (min-width: 914px) {
+  .theme-toggle {
+    left: 305px;
+  }
+}
+@media (min-width: 932px) {
+  .theme-toggle {
+    left: 310px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-toggle {
+    left: 180px; 
+  }
+}
+
+@media (min-width: 1160px) {
+  .theme-toggle {
+    left: 200px; 
+  }
+}
+
+@media (min-width: 1180px) {
+  .theme-toggle {
+    left: 200px; 
+  }
+}
+
+@media (min-width: 1280px) {
+  .theme-toggle {
+    left: 220px; 
+  }
+}
+
+@media (min-width: 1366px) {
+  .theme-toggle {
+    left: 230px; 
+  }
+}
+
+@media (min-width: 1422px) {
+  .theme-toggle {
+    left: 240px; 
+  }
+}
+
+@media (min-width: 1536px) {
+  .theme-toggle {
+    left: 440px; 
+  }
+}
+
+@media (min-width: 1600px) {
+  .theme-toggle {
+    left: 270px; 
+  }
+}
+
+@media (min-width: 1706.67px) {
+  .theme-toggle {
+    left: 285px; 
+  }
+}
+
+@media (min-width: 1910px) {
+  .theme-toggle {
+    left: 320px; 
+  }
+}
+
+
+.dark .bg-primary {
+  background-color: var(--primary-color);
+}
+
+.dark .text-primary {
+  color: var(--primary-color);
+}
+
+.dark .bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.dark .text-secondary {
+  color: var(--secondary-color);
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: "Noto Serif Myanmar", serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+.dark body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.progress-bar {
+  background-color: var(--primary-color);
+}
+
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
