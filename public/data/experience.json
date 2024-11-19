@@ -7,7 +7,7 @@
     },
     {
         "id" : 2,
-        "year" : "2022 (July) - 2022 (August)",
+        "year" : "2022 (January) - 2022 (August)",
         "title" : "Assitant Web Development Teacher",
         "description" : "I have three years of teaching experience since by the time I was third year, So I embarked on my first career as an assistant web development teacher at Myanmar Route University."
     },
@@ -21,6 +21,6 @@
         "id" : 4,
         "year" : "2023 (September) - 2024 (March)",
         "title" : "Senior React Developer (Remote)",
-        "description" : "Recently, I transitioned to TechBiz Co. Ltd, a US Based company, where I assumed the role of Frontend React Developer. However, amidst political changes. "
+        "description" : "Recently, I transitioned to TechBiz Co. Ltd, a US Based company, where I assumed the role of Frontend React Developer. "
     }
 ]

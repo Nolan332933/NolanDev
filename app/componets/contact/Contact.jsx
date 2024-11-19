@@ -47,7 +47,7 @@ const data = [
 
 const Contact = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-slate-100 text-black dark:bg-gray-900 dark:text-white">
+    <div className="min-h-screen flex justify-center items-center bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
      
       <div className="w-full pt-10 ">
         <Title title="Get In Touch" />
@@ -63,13 +63,13 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-delay="20"
                 data-aos-duration="1500"
-                className="mx-10 md:me-0  mt-5 md:mt-0 px-3 bg-white dark:bg-gray-500 rounded-lg pt-3 shadow-md shadow-red-300"
+                className="mx-10 md:me-0  mt-5 md:mt-0 px-3 bg-white dark:bg-slate-700 dark:border-slate-600 dark:shadow-slate-500 rounded-lg pt-3 shadow-md shadow-red-300"
               >
                 <div>
-                  <h1 className="text-2xl font-bold text-slate-600 mb-5">
+                  <h1 className="text-2xl font-bold text-slate-600 dark:text-slate-200 mb-5">
                     Address
                   </h1>
-                  <p className="text-slate-500 dark:text-white text-justify">
+                  <p className="text-red-500 text-justify">
                   281/18 Moo 4 Suksawat 40 Rd. Khwang Bang Pakok, Khet Rat Burana Bangkok 10140, Thailand​
                   </p>
                 </div>
@@ -78,11 +78,11 @@ const Contact = () => {
                   <div>
                     <BsTelephoneInbound
                       size={20}
-                      className="text-violet-700 dark:text-white inline me-3"
+                      className="text-slate-600 dark:text-slate-200 inline me-3"
                     />
                     <a
                       href="phoneto:+6588571785"
-                      className="text-slate-500 dark:text-white text-sm"
+                      className="text-red-500 text-sm"
                     >
                       +65966498913
                     </a>
@@ -90,11 +90,11 @@ const Contact = () => {
                   <div className="mt-3">
                     <AiOutlineMail
                       size={20}
-                      className="text-violet-700 dark:text-white inline me-3"
+                      className="text-slate-600 dark:text-slate-200 inline me-3"
                     />
                     <a
                       href="mailto:kmkywal.nolan@gmail.com"
-                      className="text-slate-500 dark:text-white text-sm"
+                      className="text-red-500 text-sm"
                     >
                       kmkywal.nolan@gmail.com
                     </a>
@@ -103,7 +103,7 @@ const Contact = () => {
 
                 {/* Social info  */}
                 <div className="mt-5">
-                  <h1 className="font-bold text-slate-600 text-2xl">
+                  <h1 className="font-bold text-slate-600 text-2xl dark:text-slate-200">
                     Follow Me
                   </h1>
                   <div className="flex justify-center my-3 bg-red-400 px-5 py-3 rounded-tl-lg rounded-tr-lg">
