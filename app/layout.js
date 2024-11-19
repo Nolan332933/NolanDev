@@ -49,10 +49,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <div className="theme-toggle">
-           <ThemeToggle />
-        </div>
-
+        <div className="theme-toggle ">
+            <ThemeToggle />
+          </div>
         {process.env.APP_ENV === "production" && (
           <>
           

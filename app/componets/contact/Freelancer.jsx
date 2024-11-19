@@ -2,7 +2,7 @@ import React from "react";
 
 const Freelancer = () => {
   return (
-    <div className="text-slate-300">
+    <div className="text-red-300 dark:text-red-400">
       <div className="flex flex-wrap">
         <a href="https://www.freelancer.com/affiliates/email/78227726/">
           <img
@@ -19,10 +19,10 @@ const Freelancer = () => {
         </a>
         <div style={{ minHeight: 40 }}>
           <a
-            style={{ textDecoration: "underline", fontWeight: "bold" }}
+            style={{ fontWeight: "bold" }}
             href="https://www.freelancer.com/affiliates/email/78227726/"
           >
-            KaungMyatKywal
+            Kaung Myat Kywal
           </a>
           <p
             style={{

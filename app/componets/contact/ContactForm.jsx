@@ -62,7 +62,7 @@ const ContactForm = () => {
                 name="name"
                 placeholder="Name"
                 value={form.name}
-                className="p-3 border-2 border-slate-300 rounded-md w-full focus:border-violet-700 text-slate-700 placeholder:text-violet-400"
+                className="p-3 border-2 border-slate-300 dark:border-gray-400  dark:bg-gray-500 rounded-md w-full focus:border-violet-700 text-slate-700 placeholder:text-red-400"
                 required
                 onChange={handleChange}
               />
@@ -73,7 +73,7 @@ const ContactForm = () => {
                 name="email"
                 placeholder="Email"
                 value={form.email}
-                className="p-3 border-2 border-slate-300 rounded-md w-full text-slate-700 placeholder:text-violet-400"
+                className="p-3 border-2 border-slate-300 dark:bg-gray-500 dark:border-gray-400 rounded-md w-full text-slate-700 placeholder:text-red-400"
                 required
                 onChange={handleChange}
               />
@@ -85,7 +85,7 @@ const ContactForm = () => {
               rows="5"
               placeholder="Tell me more about your needs..."
               value={form.message}
-              className="w-full mt-5 rounded-md border-2 border-slate-300 placeholder:text-violet-400 text-slate-700"
+              className="w-full mt-5 rounded-md border-2 dark:bg-gray-500 border-slate-300 dark:border-gray-400 placeholder:text-red-400 text-slate-700"
               required
               onChange={handleChange}
             />

@@ -5,7 +5,6 @@ import data from "../../../public/data/project";
 import ProjectItem from "./ProjectItem";
 import { usePathname } from "next/navigation";
 import Button from "../../../app/utlis/Button";
-import ThemeToggle from "../../../components/ThemeToggle";
 
 
 const Project = () => {
@@ -49,17 +48,14 @@ const Project = () => {
   }, [paginationState.currentPage])
 
   return (
-    <div className="mt-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
+    <div className="my-10 min-h-screen bg-slate-100 text-black dark:bg-gray-800 dark:text-white">
         {/* title  */}
         <Title title="My Work"/>
-          {/* <div className="fixed bottom-12 right-50 z-30">
-            <ThemeToggle />
-          </div> */}
         <div className="flex flex-col">
           {/* project items  */}
           <div className="flex flex-wrap justify-between mt-10 mx-2 md:mx-20">
             {data
-              .slice(paginationState.start, home ? 6 : paginationState.end)
+              .slice(paginationState.start, home ? 9 : paginationState.end)
               .map((item, index) => (
                 <ProjectItem key={item.id} item={item} index={index} />
               ))}

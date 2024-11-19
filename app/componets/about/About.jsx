@@ -81,7 +81,8 @@ const About = () => {
                   developer. From teaching web development assignments at MST
                   University to making significant contributions to web
                   application development at Myanmar ICT Solutions Co. Ltd. for
-                  two and a half-year, I've
+                  two and a half-year, I've been fortunate to pursue my passion 
+                  and make meaningful impacts in the field.
                 </p>
               </div>
               <div data-aos="flip-up" className="lg:w-1/2">
@@ -100,9 +101,8 @@ const About = () => {
               className="text-slate-500 leading-loose text-justify md:ms-3"
             >
               {" "}
-              been fortunate to pursue my passion and make meaningful impacts in
-              the field. Recently, I joined TechBiz Co. Ltd., further expanding my
-              expertise in Laravel and React development. I passed NCC level 4
+              Recently, I joined TechBiz Co. Ltd., further expanding my
+              expertise in C# and React development. I passed NCC level 4
               education during my worktime, and I'm currently attending NCC
               level 5 to deepen my knowledge and skills in web development. I am
               deeply interested in the intersection of technology and
